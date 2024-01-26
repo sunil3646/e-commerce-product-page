@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1><bold>SNEAKER CLUB</i></bold></h1>
+    </header>
+
+    <div class="product-container">
+        <div class="product-card" id="product1">
+            <img src="white shoe.jpg" alt="white shoe" class="white shoe">
+            <h2>white shoe</h2>
+            <p>Step into timeless style with our Classic Men's Sneaker. Crafted for comfort and durability, these sneakers blend fashion and function effortlessly.</p>
+            <ul>
+                <li>Timeless Design: Versatile and stylish, perfect for any occasion.</li>
+                <li>Comfortable Fit: Padded insoles and cushioned collars ensure all-day comfort.</li>
+                <li>Durable Build: High-quality materials for long-lasting wear.</li>
+                <li>Versatile Styling: Elevate your look for the office, casual outings, or weekend adventures.</li>
+            </ul>
+            <p>Available in various sizes and colors. Make a statement with confidence wherever you go.</p>
+            <p>Price: $49.99</p>
+            <button onclick="addToCart('white shoe', 19.99)">Add to Cart</button>
+        </div>
+
+        <div class="product-card" id="product2">
+            <img src="Black sneakers.jpg" alt="Product 2" class="product-image">
+            <h2>Black sneakers</h2>
+            <p>Elevate your active lifestyle with our high-performance sneaker. Designed for the modern man on the move, these sneakers offer agility, support, and style.</p>
+    <ul>
+        <li>Dynamic Design: Sleek and sporty, perfect for workouts or casual outings.</li>
+        <li>Responsive Comfort: Responsive cushioning and breathable materials keep you comfortable throughout the day.</li>
+        <li>Traction Control: Non-slip outsoles provide excellent grip, ensuring stability on various surfaces.</li>
+        <li>Adventure-Ready: From the gym to outdoor adventures, these sneakers are your ideal companion.</li>
+    </ul>
+    <p>Available in bold colors. Embrace an active lifestyle with confidence. Price: $59.99</p>
+            <button onclick="addToCart('Product 2', 24.99)">Add to Cart</button>
+        </div>
+
+        <div class="product-card" id="Urban Street Sneaker">
+            <img src="Urban Street Sneaker.jpg" alt="Urban Street Sneaker " class="Urban Street Sneaker-image">
+            <h2>Urban Street Sneaker</h2>
+            <p>Make a statement in the city with our Urban Street Sneaker. A blend of street style and sophistication, these sneakers add a trendy edge to your urban wardrobe.</p>
+    <ul>
+        <li>City Vibes: Stylish and contemporary design for the fashion-forward urbanite.</li>
+        <li>Premium Materials: Crafted with premium materials for a luxurious look and feel.</li>
+        <li>Versatile Pairing: Perfect for casual streetwear or dressing up your favorite denim.</li>
+        <li>City Explorer: Navigate the streets in style with these fashionable sneakers.</li>
+    </ul>
+    <p>Available in neutral tones. Redefine urban fashion. Price: $69.99</p>
+            <button onclick="addToCart('Product 2', 24.99)">Add to Cart</button>
+        </div>
+        <div class="product-card" id="Retro Inspired Sneaker">
+            <img src=" Retro Inspired Sneaker.jpg" alt=" Retro Inspired Sneaker 2" class=" Retro Inspired Sneaker-image">
+            <h2>Retro Inspired Sneaker</h2>
+            <p>Step back in time with our Retro Inspired Sneaker. A nod to classic aesthetics, these sneakers bring vintage charm to your contemporary wardrobe.</p>
+    <ul>
+        <li>Nostalgic Appeal: Retro design elements for a timeless and nostalgic look.</li>
+        <li>Comfortable Heritage: Modern comfort technology meets vintage aesthetics.</li>
+        <li>Iconic Details: Unique detailing inspired by classic sneaker styles.</li>
+        <li>Casual Elegance: Effortlessly blend retro charm with modern-day casual wear.</li>
+    </ul>
+    <p>Available in retro color palettes. Embrace vintage vibes. Price: $79.99</p>
+            <button onclick="addToCart('Product 2', 24.99)">Add to Cart</button>
+        </div>
+
+        <!-- Add more product cards as needed -->
+
+    </div>
+
+    <div class="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart"></ul>
+        <button class="cart-button" onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
